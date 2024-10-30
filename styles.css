@@ -1,0 +1,55 @@
+.header{
+    display:flex;
+    align-items: center;
+    height: 33vh; /* 33% of the height */
+    width: 100%;
+    background-image: url('./pics/fire-header.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.github-btn-pic{
+    text-align: center;
+    width: 30vh;
+    margin-left:50px;
+}
+
+.fire{
+    text-align:center;
+    width: 40vh;
+    margin: 0 auto;
+}
+
+.x-btn-pic{
+    text-align: center;
+    width: 30vh;
+    margin-right: 50px;
+  }
+
+/* Remove button default styling */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.bodycls{
+    background-image: url('./pics/backgr.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+.core{
+    text-align:center;
+    color: white;
+}
+
+.manifesto-text{
+    text-align:center;
+}
+
+.contact-btn{
+    text-align: center;
+}
